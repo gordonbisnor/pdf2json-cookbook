@@ -3,7 +3,7 @@ script "pdf2json" do
   user "root"
   cwd "/tmp"
   code <<-EOH
-  wget https://pdf2json.googlecode.com/files/pdf2json-0.68.tar.gz
+  wget https://github.com/flexpaper/pdf2json/releases/download/v0.68/pdf2json-0.68.tar.gz
   tar -zxf pdf2json-0.68.tar.gz
   cd pdf2json-0.68
   ./configure
